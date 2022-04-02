@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="css-commande.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Votre commande</title>
+</head>
+<body>
+    <div class="page">
+       <div class="header">
+          <nav>
+                <div id="menuToggle">
+                  <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div id="menu">
+                    <a href="HTML-page-accueil.html"><p>Home</p></a>
+                    <a href="#Pizzas"><p>Pizzas</p></a>
+                    <a href="#Burger"><p>Burgers</p></a>
+                    <a href="#Salade"><p>Salades</p></a>
+                    <a href="contact.html"><p>Contact</p></a>
+                  </div> 
+                </div>
+          </nav>
+          <div class="logo1"><img class="logo" src="images/Bella-Olonje-logo-111-1.png" alt="pizza"/></div>
+          <div class="accueil">
+            <a href="HTML-page-accueil.html"><p>Home</p></a>
+            <a href="HTML-page-accueil.html#Pizzas"><p>Pizzas</p></a>
+            <a href="HTML-page-accueil.html#Burger"><p>Burgers</p></a>
+            <a href="HTML-page-accueil.html#Salade"><p>Salades</p></a>
+            <a href="contact.html"><p>Contact</p></a>
+          </div>
+       </div>
+       <div class="food">
+          <p>Food app</p>
+          <p>Chez Bella</p>
+          <p>chaque désir s'additionne.</p>
+       </div>
+       <h1>Vos informations</h1>
+       <form class="information">
+          <label for="Nom">Nom :</label>
+          <input id="Nom" class="reponse" type="text" placeholder="Nom">
+          <label for="Prénom">Prénom :</label>
+          <input id="Prénom" class="reponse" type="text" placeholder="Prénom">
+          <label for="Téléphone">Téléphone :</label>
+          <input id="Téléphone" class="reponse" type="text" placeholder="Téléphone">
+          <label for="Email">Email :</label>
+          <input id="Email" class="reponse" type="text" placeholder="Email">
+       </form>         
+       <img class="barre" src="images/HR.png" alt="pizza">     
+       <h1>Votre commande</h1>
+       <h1 id="from">Salade César</h1> 
+       <h3 id="supp">Suppléments :</h3>
+       <form class="supplements">
+            <label for="Ingrédient1">Ingrédient :</label>
+            <label for="q1">Quantités :</label>
+            <input id ="Ingrédient1" class="reponse" name="Ingrédient" type="text" placeholder="fromages">
+            <input id="q1" class="reponse" name="Ingr" type="number" placeholder= 1>
+            <label for="Ingrédient2">Ingrédient :</label>
+            <label for="q2">Quantités :</label>
+            <input id ="Ingrédient2" class="reponse" name="Ingrédient1" type="text" placeholder="fromages">
+            <input id="q2" class="reponse" name="Ingr1" type="number" placeholder= 1>
+            <label for="Ingrédient3">Ingrédient :</label>
+            <label for="q3">Quantités :</label>
+            <input id ="Ingrédient3" class="reponse" name="Ingrédient2" type="text" placeholder="fromages">
+            <input id="q3" class="reponse" name="Ingr2" type="number" placeholder= 1>
+            <label for="Ingrédient4">Ingrédient :</label>
+            <label for="q4">Quantités :</label>
+            <input id ="Ingrédient4" class="reponse" name="Ingrédient3" type="text" placeholder="fromages">
+            <input id="q4" class="reponse" name="Ingr3" type="number" placeholder= 1>
+       </form>
+       <form class="frites">
+            <input id="avec" type="radio" name="frites" checked >
+            <label for="avec" class="frit" >Avec frites</label>
+            <input id="sans" type="radio" name="frites">
+            <label for="sans" class="frit" >Sans frites</label>
+       </form>
+       <div class="boide">
+          <h1 class="dessert">Boissons</h1>
+          <form class="boissons">
+            <input id="coca" type="checkbox" name="Boissons"  >
+            <label class="boisson" for="coca">Coca-cola</label>
+            <input class="reponse" type="number" placeholder= 1>
+            <input type="checkbox" name="Fanta">
+            <label id="Fanta" class="boisson" >Fanta</label>
+            <input class="reponse" type="number" placeholder= 1>
+            <input type="checkbox" name="Eau">
+            <label id="eau" class="boisson">Eau</label>
+            <input class="reponse" type="number" placeholder= 1>
+          </form>
+          <h1 class="dessert">Desserts</h1>
+          <form class="boissons">
+            <input id="Tiramisu" type="checkbox" name="Desserts"  >
+            <label class="boisson" for="Tiramisu">Tiramisu</label>
+            <input class="reponse" type="number" placeholder= 1>
+            <input id="Cheese-cake" type="checkbox" name="Desserts">
+            <label class="boisson" for="Cheese-cake">Cheese-cake</label>
+            <input class="reponse" type="number" placeholder= 1>
+            <input id="Tarte-au-fraise" type="checkbox" name="Desserts" >
+            <label class="boisson" for="Tarte-au-fraise">Tarte au fraise</label>
+            <input class="reponse" type="number" placeholder= 1>
+           </form>
+       </div>
+       <h1>Adresse de livraison</h1>
+       <form class="Adresse">
+            <label for="Nom">Nom :</label>
+            <input id="nom3" class="reponse" type="text" placeholder="nom">
+            <label for="Prénom">Prénom :</label>
+            <input class="reponse" type="text" placeholder="Prénom">
+            <label for="Adresse">Adresse :</label>
+            <input id="Adresse" name="Adresse" class="reponse" type="text" placeholder="Téléphone">
+            <label for="Code-postale">Code postale :</label>
+            <input id="Code-postale" class="reponse" name="Code-postale" type="text" placeholder="Code postale">
+            <label for="Ville">Ville :</label>
+            <input id="Ville" name="ville" class="reponse" type="text" placeholder="Ville">
+            <label for="Pays">Pays :</label>
+            <input id="Pays" class="reponse" name="Pays" type="text" placeholder="Pays">
+        </form>
+        <button class="button">Envoyer</button>
+    </div>
+</body>
+</html>

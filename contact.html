@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="css-contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Contact</title>
+</head>
+<body> 
+ <div class="page">
+     <div class="header">
+        <nav>
+           <div id="menuToggle">
+             <input type="checkbox" />
+             <span></span>
+             <span></span>
+             <span></span>
+             <div id="menu">
+              <a href="HTML-page-accueil.html"><p>Home</p></a>
+              <a href="#Pizzas"><p>Pizzas</p></a>
+              <a href="#Burger"><p>Burgers</p></a>
+              <a href="#Salade"><p>Salades</p></a>
+              <a href="contact.html"><p>Contact</p></a>
+            </div> 
+           </div>
+        </nav>
+        <div class="logo1"><img class="logo" src="images/Bella-Olonje-logo-111-1.png" alt="logo"/></div>
+        <div class="accueil">
+          <a href="HTML-page-accueil.html"><p>Home</p></a>
+          <a href="HTML-page-accueil.html#Pizza"><p>Pizzas</p></a>
+          <a href="HTML-page-accueil.html#Burger"><p>Burgers</p></a>
+          <a href="HTML-page-accueil.html#Salade"><p>Salades</p></a>
+          <a href="contact.html"><p>Contact</p></a>
+        </div>
+     </div>
+     <div class="food">
+        <p>Food app</p>
+        <p>Chez Bella</p>
+        <p>chaque désir s'additionne.</p>
+     </div>
+     <h1>Nous contacter</h1>
+     <form class="contact">
+        <label for="Nom">Nom :</label>
+        <input id="Nom" class="reponse" type="text" placeholder="nom">
+        <label for="Prénom">Prénom :</label>
+        <input id="Prénom" class="reponse" type="text" placeholder="Prénom">
+        <label for="Téléphone">Téléphone :</label>
+        <input id="Téléphone" class="reponse" type="text" placeholder="Téléphone">
+        <label for="Email">Email :</label>
+        <input id="Email" class="reponse" type="text" placeholder="email">
+        <label for="Société">Société :</label>
+        <input id="Société" class="reponse" type="text" placeholder="Société">
+        <label for="Fonction">Fonction :</label>
+        <input id ="Fonction" class="reponse" type="text" placeholder="Cuisinier">
+     </form>
+     <div class="ROBOT">
+        <input type="file" class="custom-file-input" accept="image/png, image/jpeg">
+        <p class="rp">Choisissez un fichier : </p>
+        <div class="captcha">
+          <input id="captcha" type="checkbox" name="captcha">
+          <label  class="captval" for="captcha"><img src="images/recaptcha.png" alt="captcha"></label>
+          <p class="rb">I'm not a robot</p>
+          <img class="wait" src="images/recaptcha-v2.gif" alt="wait">
+          <img class="logcap" src="images/invisible-recaptcha.jpeg" alt="logo">
+          <img class="grand" src="images/recaptcha-(1).png" alt="grand">
+        </div>
+     </div>
+     <form class="objet">
+       <label for="Objet">Objet :</label>
+       <input id="Objet" class="reponse" type="text" placeholder="Objet">
+       <label for="Message">Message :</label>
+       <input id="Message" type="text" placeholder="Message">
+     </form>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10515.53740924536!2d2.432472419939772!3d48.78409806449731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67344bd2d57f1%3A0x2a84a845271b523a!2sAFPA!5e0!3m2!1sfr!2sfr!4v1647947988545!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     <button class="Envoyer">Envoyer</button>
+  </div>
+</body>
+</html>
